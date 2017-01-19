@@ -11,10 +11,39 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
+
+p{
+     background-color:#ffffff;
 }
+
+h1, h3{
+     
+     font-family: 'Oswald', sans-serif;
+}
+
+body {
+     border: 1px solid gray;
+     padding: 20px;
+     font-family: 'Slabo 27px', serif;
+}
+
+
+/* antiquated name for my title, i meant for this to resize my images
+but i realized that i could use bootstrap instead*/
+.half{
+border: 1px solid #ffffff;
+}
+
+.img-circle {
+    border-radius: 30%;
+    max-width: 10%;
+    height: auto;
+}
+
+div .intro{
+     text-align:center;
+}
+
 
 .jumbotron {
 	position: relative;
@@ -23,7 +52,7 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("http://lorempixel.com/1140/283");
+     background-color: #EBDAD3;
      opacity: 0.2;
      top: 0;
      left: 0;
